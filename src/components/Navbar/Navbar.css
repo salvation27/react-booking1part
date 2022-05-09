@@ -1,0 +1,120 @@
+.nav_bar ul {
+  display: flex;
+}
+.nav_bar ul li {
+  margin-right: 10px;
+}
+
+.nav_bar ul li a {
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.nav_bar ul li a:hover {
+  color: brown;
+}
+.nav_bar_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bar_wrap {
+  height: 50px;
+}
+.nav_bar {
+  background-color: #003580;
+}
+.logo a {
+  color: aliceblue;
+}
+.dostoinstva {
+  margin-right: 20px;
+  display: flex;
+}
+.dostoinstva span {
+  margin-left: 2px;
+}
+.dostoinstva_wrap {
+  display: flex;
+}
+.dostoinstva_wrap .active {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 5px;
+}
+.offer_text {
+  color: #fff;
+}
+.header_serch {
+  border: 2px solid rgb(229, 255, 0);
+}
+span {
+  /* color: #fff; */
+}
+.nav_bar .container {
+  position: relative;
+}
+.nav_bar {
+    padding-bottom: 50px;
+}
+.header_serch {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-top: 30px;
+}
+.btn_serch {
+  height: 100%;
+}
+.header_serch input {
+  height: 100%;
+  border:none
+}
+.rdrCalendarWrapper {
+    position: absolute;
+    top: 100%;
+}
+.header_serch {
+    position: relative;
+}
+.date_to_date {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.options_item {
+    display: flex;
+}
+.option_num {
+    padding: 0px 5px;
+}
+.options {
+    background: #fff;
+    position: absolute;
+    border:1px solid #ccc;
+    top:100%;
+    width: 100%;
+}
+.men_wrap {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.options_item {
+    display: flex;
+    justify-content: space-between;
+}
+.option_btn_wrap {
+    display: flex;
+}
+.rdrCalendarWrapper {
+  z-index: 10;
+}
